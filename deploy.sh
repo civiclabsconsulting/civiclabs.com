@@ -5,7 +5,7 @@ git add -A
 git commit -m "$1"
 git push origin master
 
-source .secrets
+source .secrets.bash
 
 email=$EMAIL
 tkn=$TKN
