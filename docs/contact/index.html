@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+<head>
+    <title>
+    </title>
+</head>
+
+<body>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Contact us!</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+<!-- CSS -->
+<link rel="stylesheet" href="/css/owl.carousel.css" />
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/font-awesome.min.css" />
+<link rel="stylesheet" href="/css/airspace.css" />
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/css/ionicons.min.css" />
+<link rel="stylesheet" href="/css/animate.css" />
+<link rel="stylesheet" href="/css/responsive.css" />
+<link rel="stylesheet" href="/css/syntax.css" />
+
+<!-- Js -->
+<script src="/js/vendor/jquery-1.10.2.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/plugins.js"></script>
+<script src="/js/min/waypoints.min.js"></script>
+<script src="/js/jquery.counterup.js"></script>
+<script src="/js/main.js"></script>
+ <!-- Header Start -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- header Nav Start -->
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button"
+                                    class="navbar-toggle collapsed"
+                                    data-toggle="collapse"
+                                    data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="/">
+                                <img class="visisle-xs hidden-sm hidden-md hidden-lg hidden-xl"
+                                     src="/img/logo-small.png"
+                                     style="height: 70px;">
+                                <img style="height: 60px; top: -3px; position: absolute;"
+                                     class="hidden-xs" src="/img/logo.png" alt="Logo">
+                            </a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="/">Home</a></li>
+                                <!-- TODO: Update
+                                <li><a href="/work">Work</a></li>
+                                <li><a href="/blog">Blog</a></li>
+                                -->
+                                <li><a href="/contact">Contact</a></li>
+                                <li>
+                                    <a class="btn btn-sm btn-action"
+                                       href="/get-started-now">Get Started Now</a>
+                                </li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- header close -->
+ <!-- Slider Start -->
+<section id="global-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1>Drop Us A Note</h1>
+                    <p>Don’t just take our word for it. Check out some of our latest work.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- contact form start -->
+<section id="contact-form">
+    <div class="container">
+        <div class="row">
+            <form action="https://formspree.io/hello@civiclabs.com"
+                  id="contactForm"
+                  method="POST">
+                <div class="col-md-6 col-sm-12">
+                    <div class="block">
+                        <div class="form-group">
+                            <input type="text"
+                                   class="form-control"
+                                   required
+                                   name="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email"
+                                   class="form-control"
+                                   name="email"
+                                   required
+                                   placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <input type="text"
+                                   class="form-control"
+                                   required
+                                   name="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group-2">
+                            <textarea class="form-control"
+                                      required
+                                      name="message"
+                                      rows="3"
+                                      placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="form-group-2">
+                            <br>
+                            <button class="btn btn-default form-control"
+                                    value="Send"
+                                    id="contactFormSendButton"
+                                    type="submit">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="block">
+                        <h1>Contact Us</h1>
+                        <p>What's on your mind? Interested in product development? Or jumpstarting your product's infrastructure by leveraging our knowledge and experience? Outsource your development operations to us. Or just say hi!</p>
+                    </div>
+                </div>
+            </form>
+            <script>
+                $("#contactForm").on("submit", function(e) {
+                    e.preventDefault();
+                    var data = $(this).serializeArray();
+                    $.ajax({
+                        url: "//formspree.io/hello@civiclabs.com",
+                        method: "POST",
+                        data: data,
+                        dataType: "json"
+                    });
+                    $("#contactForm").html('<div class="col-md-12 col-sm-12">'
+                            + '<div class="alert alert-success"><strong>Success!</strong> '
+                            + 'We will get back to you shortly.</div>'
+                            + '</div>');
+                    return false;
+                });
+            </script>
+        </div>
+        <div id="contact-box" class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="block">
+                    <h2>Stop By For A visit</h2>
+                    <ul class="address-block">
+                        <li>
+                            <i class="fa fa-map-marker"></i>28 2nd Street, 3rd Floor #3174, San Francisco, CA 94105
+                        </li>
+                        <li>
+                            <i class="fa fa-map-marker"></i>1496 Bushwick Ave, 4D, Brooklyn, NY 11207
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope-o"></i>Email: hello@civiclabs.com
+                        </li>
+                        <li>
+                            <i class="fa fa-phone"></i>Phone: +1 415 890 6470
+                        </li>
+                    </ul>
+
+                    <ul class="social-icons">
+                        <li>
+                            <a href="https://github.com/civiclabsconsulting" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/company/10684154">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="block">
+                    <h2>&nbsp;</h2>
+                    <div class="google-map" style="width: 100% !important;">
+                        <iframe width="100%"
+                                height="300"
+                                frameborder="0"
+                                style="border:0"
+                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCUISm7Gwjg7VdN6eJDzbXo6cwYDxMm5fQ&q=28+2nd+Street,San+Francisco+CA" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Call to action Start -->
+<section id="call-to-action">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2>We design delightful digital products.</h2>
+                    <p>Read more about what we do and our philosophy of design. Judge for yourself the work and results we’ve achieved for other clients, and meet our highly experienced team.</p>
+                    <br/>
+                    <a class="btn btn-default btn-call-to-action btn-action"
+                        href="/get-started-now">Tell Us Your Story</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- footer Start -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-manu">
+          <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/get-started-now">Get Started Now</a></li>
+            <li><a href="/contact">Contact us</a></li>
+            <!---
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/work">Work</a></li>
+            <li><a href="/blog">Blog</a></li>
+            -->
+          </ul>
+        </div>
+        <p>Copyright &copy; Civic Labs. Developed by <a href="https://www.civiclabs.com">Civic Labs</a>. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
