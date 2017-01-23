@@ -35,6 +35,8 @@ descriptions:
 
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
   - rouge
   - listen
 
+paginate_path: "/blog/page:num/"
