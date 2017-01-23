@@ -242,7 +242,7 @@ Feature Start
     display: block;
     position: relative;
     overflow: visible;
-    background-attachment: fixed;
+    background-attachment: scroll !important;
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #fff;
