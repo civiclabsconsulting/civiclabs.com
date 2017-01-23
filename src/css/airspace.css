@@ -368,7 +368,7 @@ Slider-work Start
     padding-top: 150px;
     padding-bottom: 107px;
     position: relative;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 #global-header:before {
     content: "";
