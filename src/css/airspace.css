@@ -103,7 +103,7 @@ Slider Start
     position: relative;
     height: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed !important;
+    background-attachment:scroll !important;
     background-position: center !important;
     background-size: cover !important;
 
