@@ -15,7 +15,7 @@ keep_files:
 title: "Civic Labs"
 subtitle: "Not Just Code. The Right Code."
 url: "https://www.civiclabs.com"
-baseurl: "/"
+baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
@@ -32,3 +32,9 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+gems:
+  - jekyll-sitemap
+  - rouge
+  - listen
+
