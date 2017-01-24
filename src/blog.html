@@ -17,15 +17,19 @@ permalink: /blog/
     </div>
 </section>
 
-{% for post in site.posts %}
-<div class="post-area">
-    <a href="{{ post.url }}" class="bold">{{ post.title }}</a>
-    <p class="post-date">{{ post.date | date_to_long_string }}</p>
-    <p>
-    {{ post.teaser | strip_html }}
-    </p>
+<div class="container">
+    {% for post in site.posts %}
+    <div class="post-area">
+        <a href="{{ post.url }}" class="bold">{{ post.title }}</a>
+        {% capture time %}{{ content | reading_time }}{% endcapture %}
+        <p class="post-date">{{ post.date | date_to_long_string }}</p>
+        <p><i>{{ time }} {% if time == '1' %}minute{% else %}minute{% endif %} read</i></p>
+        <p>
+        {{ post.teaser | strip_html }}
+        </p>
+    </div>
+    {% endfor %}
 </div>
-{% endfor %}
 
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
