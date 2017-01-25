@@ -38,5 +38,33 @@ gems:
   - jekyll-paginate
   - rouge
   - listen
+  - jekyll-assets
 
 paginate_path: "/blog/page:num/"
+
+assets:
+  compress:
+    css: true
+    js: true
+
+  autowrite: true
+  cache: false
+  skip_baseurl_with_cdn: true
+  skip_prefix_with_cdn: true
+  digest: true
+
+  assets:
+    - "*.png"
+    - "bundle.css"
+
+  sources:
+    - css
+    - img
+    - js
+    - css
+    - fonts
+
+  features:
+    integrity: false
+    automatic_img_size: true
+    automatic_img_alt : true

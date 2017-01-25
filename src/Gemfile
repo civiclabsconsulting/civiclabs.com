@@ -8,3 +8,4 @@ gem 'liquid_reading_time', group: :jekyll_plugins
 gem 'jekyll-seo-tag', group: :jekyll_plugins
 gem 'jekyll-scholar', group: :jekyll_plugins
 gem 'jekyll-seo', group: :jekyll_plugins
+gem 'jekyll-assets', group: :jekyll_plugins
