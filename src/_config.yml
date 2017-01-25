@@ -31,11 +31,20 @@ descriptions:
     desc: "Just some placeholder posts, lorem ipsum and the rest."
 
 gems:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - rouge
   - listen
   - jekyll-assets
+  - rouge
+  - pygments.rb
+  - jekyll-paginate
+  - jekyll-watch
+  - kramdown
+  - rouge
+  - jekyll-sitemap
+  - liquid_reading_time
+  - jekyll-seo-tag
+  - jekyll-seo
+  - jekyll-assets
+  - jekyll/scholar
 
 paginate_path: "/blog/page:num/"
 
