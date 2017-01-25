@@ -9,5 +9,14 @@
 <body>
     {% include head.html %} {% include header.html %} {{ content }} {% include footer.html %}
     {% include analytics.html %}
+
+    <!-- Js -->
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/min/waypoints.min.js"></script>
+
+    {% javascript plugins %}
+    {% javascript jquery.counterup %}
+    {% javascript main %}
 </body>
 </html>
