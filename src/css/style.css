@@ -21,7 +21,6 @@
     width: 100%;
     min-height: 150px;
     background-color: white;
-    border-bottom: 1px dotted #ddd;
 }
 
 .post-area a:link, .post-area a:visited {
@@ -49,3 +48,8 @@
     margin: 0 auto;
     display: block;
 }
+
+.newsletter {
+    background: url("../img/whiteboard-thinking.jpg") no-repeat !important;
+}
+

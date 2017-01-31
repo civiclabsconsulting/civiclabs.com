@@ -6,8 +6,11 @@ teaser: Thinking about having a custom software application written for you or y
 author: Brandon Stiles
 comments: true
 categories: haskell coq software
+img: whiteboard-thinking.jpg
+tags:
 ---
-![Haskell Logo](/img/whiteboard-thinking.jpg){: .blog-img }
+
+**Index**
 
 * Do not remove this line (it will not be displayed)
 {:toc}
