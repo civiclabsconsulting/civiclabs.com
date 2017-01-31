@@ -98,5 +98,3 @@ Also consider that while libraries like QuickCheck are great, as well as Unit Te
 ## Next Steps
 
 Interested in working for or with us? Send us an <a href="mailto:hello@civiclabs.com" target="_blank">email</a>!
-
-{% include discuss.html %}
