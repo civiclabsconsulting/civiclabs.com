@@ -7,10 +7,11 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +100 src/_posts/2017-01-19-7-reasons-to-have-your-next-important-software-project-written-in-haskell.md
+badd +19 src/_posts/2017-01-19-7-reasons-to-have-your-next-important-software-project-written-in-haskell.md
+badd +0 src/index.html
 argglobal
 silent! argdel *
-edit src/_posts/2017-01-19-7-reasons-to-have-your-next-important-software-project-written-in-haskell.md
+edit src/index.html
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -26,11 +27,11 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 100 - ((35 * winheight(0) + 26) / 53)
+let s:l = 1 - ((0 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-100
+1
 normal! 0
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
