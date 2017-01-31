@@ -39,7 +39,7 @@ Because of these two main features, there are many tools in the Haskell ecosyste
 
 I'll admit I'm not the world's best software engineer. I've met brilliant people who can write great business applications better than I in languages other than Haskell. But as for me, I'd rather use a programming language that helps catch and fix my mistakes for me. Paul Hudak wrote a great <a href="http://goo.gl/zUnONn" target="_blank">paper</a> in 1994 that gets more into some auxiliary reasons for why engineers might find the language better suitable for important applications.
 
-### 2. Adding Features and Extending Functionality is Painless; and Without Surprises
+### 2. Adding Features and/or Extending Functionality is Safe and Easy
 
 Similar to how software products evolve, here's a quotation from Darwin about biology.
 
@@ -59,7 +59,7 @@ So at the end of the day, **your business gets their product to market faster**.
 
 The majority of software ownership cost comes from maintenance and support. Once a software product is written and launched, all is well. As time moves by however, inevitable design or requirements mistakes crop up. And they need to be fixed. There is a great <a href="http://goo.gl/1F4zxR" target="_blank">article</a> that gets into the numbers. If there are fewer bugs in your program, it follows that the longterm cost is reduced.
 
-### 6. Performance, Performance, and Performance
+### 5. Performance, Performance, and Performance
 
 The pattern I've found is that I'll ship an application written in a mainstream programming language for a client, and then, as it gains traction and the user base grows, the applications gets slower and slower. This is completely normal - first you write an application for correctness, then you optimize it, making it faster and faster. This is what retainers are for and is part of the ongoing cost of maintenance and support.
 
@@ -67,19 +67,19 @@ But as it turns out - Haskell programs run extremely fast. This goes back to the
 
 In addition, Haskell has a feature called <a href="https://goo.gl/53VvEl" target="_blank">lazy evaluation</a>, which also contributes to its speed.
 
-### 5. Stay Ahead of Your Competition
+### 6. Vibrant Community Support
+
+Haskell gets a lot of flak for being such an academic language, in the "Ivory Tower" sense. However, this can also really be seen as an advantage. Look at all the great products that have come out of the AI revolution - the research for a large majority of all these Machine and Deep Learning predictive algorithms has come from the academic community. Why not expect a similar outcome with a programming language?
+
+There's also an incredible array of high quality libraries in the Haskell community. Checkout <a href="https://goo.gl/M0QwMh" target="_blank">Hackage</a> for more info.
+
+### 7. Stay Ahead of Your Competition
 
 > The best way to predict the future is to invent it.
 >
 > Alan Kay
 
 Albeit I'm biased, but I see a trend with Haskell and FP. What company doesn't want higher quality software, with fewer mistakes? We are now starting to see the industry pick up on this trend as well - Facebook recently rewrote a critical piece of the company's Artificial Intelligence (AI) powered spam detection library in Haskell, and open-sourced a critical piece of that project, <a href="https://goo.gl/1yx3bJ" target="_blank">Haxl</a>.
-
-### 7. Vibrant Community Support
-
-Haskell gets a lot of flak for being such an academic language, in the "Ivory Tower" sense. However, this can also really be seen as an advantage. Look at all the great products that have come out of the AI revolution - the research for a large majority of all these Machine and Deep Learning predictive algorithms has come from the academic community. Why not expect a similar outcome with a programming language?
-
-There's also an incredible array of high quality libraries in the Haskell community. Checkout <a href="https://goo.gl/M0QwMh" target="_blank">Hackage</a> for more info.
 
 ## Haskell's Pitfalls
 

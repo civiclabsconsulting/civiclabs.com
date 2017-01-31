@@ -122,12 +122,12 @@
   <li><a href="#caveat-emptor" id="markdown-toc-caveat-emptor">Caveat Emptor</a></li>
   <li><a href="#reasons-from-a-business-perspective" id="markdown-toc-reasons-from-a-business-perspective">Reasons From a Business Perspective</a>    <ul>
       <li><a href="#1-haskell-programs-have-fewer-bugs" id="markdown-toc-1-haskell-programs-have-fewer-bugs">1. Haskell Programs Have Fewer Bugs</a></li>
-      <li><a href="#2-adding-features-and-extending-functionality-is-painless-and-without-surprises" id="markdown-toc-2-adding-features-and-extending-functionality-is-painless-and-without-surprises">2. Adding Features and Extending Functionality is Painless; and Without Surprises</a></li>
+      <li><a href="#2-adding-features-andor-extending-functionality-is-safe-and-easy" id="markdown-toc-2-adding-features-andor-extending-functionality-is-safe-and-easy">2. Adding Features and/or Extending Functionality is Safe and Easy</a></li>
       <li><a href="#3-rapid-prototyping" id="markdown-toc-3-rapid-prototyping">3. Rapid Prototyping</a></li>
       <li><a href="#4-smaller-longterm-cost-of-ownership" id="markdown-toc-4-smaller-longterm-cost-of-ownership">4. Smaller Longterm Cost of Ownership</a></li>
-      <li><a href="#6-performance-performance-and-performance" id="markdown-toc-6-performance-performance-and-performance">6. Performance, Performance, and Performance</a></li>
-      <li><a href="#5-stay-ahead-of-your-competition" id="markdown-toc-5-stay-ahead-of-your-competition">5. Stay Ahead of Your Competition</a></li>
-      <li><a href="#7-vibrant-community-support" id="markdown-toc-7-vibrant-community-support">7. Vibrant Community Support</a></li>
+      <li><a href="#5-performance-performance-and-performance" id="markdown-toc-5-performance-performance-and-performance">5. Performance, Performance, and Performance</a></li>
+      <li><a href="#6-vibrant-community-support" id="markdown-toc-6-vibrant-community-support">6. Vibrant Community Support</a></li>
+      <li><a href="#7-stay-ahead-of-your-competition" id="markdown-toc-7-stay-ahead-of-your-competition">7. Stay Ahead of Your Competition</a></li>
     </ul>
   </li>
   <li><a href="#haskells-pitfalls" id="markdown-toc-haskells-pitfalls">Haskell’s Pitfalls</a></li>
@@ -160,7 +160,7 @@
 
 <p>I’ll admit I’m not the world’s best software engineer. I’ve met brilliant people who can write great business applications better than I in languages other than Haskell. But as for me, I’d rather use a programming language that helps catch and fix my mistakes for me. Paul Hudak wrote a great <a href="http://goo.gl/zUnONn" target="_blank">paper</a> in 1994 that gets more into some auxiliary reasons for why engineers might find the language better suitable for important applications.</p>
 
-<h3 id="2-adding-features-and-extending-functionality-is-painless-and-without-surprises">2. Adding Features and Extending Functionality is Painless; and Without Surprises</h3>
+<h3 id="2-adding-features-andor-extending-functionality-is-safe-and-easy">2. Adding Features and/or Extending Functionality is Safe and Easy</h3>
 
 <p>Similar to how software products evolve, here’s a quotation from Darwin about biology.</p>
 
@@ -182,7 +182,7 @@
 
 <p>The majority of software ownership cost comes from maintenance and support. Once a software product is written and launched, all is well. As time moves by however, inevitable design or requirements mistakes crop up. And they need to be fixed. There is a great <a href="http://goo.gl/1F4zxR" target="_blank">article</a> that gets into the numbers. If there are fewer bugs in your program, it follows that the longterm cost is reduced.</p>
 
-<h3 id="6-performance-performance-and-performance">6. Performance, Performance, and Performance</h3>
+<h3 id="5-performance-performance-and-performance">5. Performance, Performance, and Performance</h3>
 
 <p>The pattern I’ve found is that I’ll ship an application written in a mainstream programming language for a client, and then, as it gains traction and the user base grows, the applications gets slower and slower. This is completely normal - first you write an application for correctness, then you optimize it, making it faster and faster. This is what retainers are for and is part of the ongoing cost of maintenance and support.</p>
 
@@ -190,7 +190,13 @@
 
 <p>In addition, Haskell has a feature called <a href="https://goo.gl/53VvEl" target="_blank">lazy evaluation</a>, which also contributes to its speed.</p>
 
-<h3 id="5-stay-ahead-of-your-competition">5. Stay Ahead of Your Competition</h3>
+<h3 id="6-vibrant-community-support">6. Vibrant Community Support</h3>
+
+<p>Haskell gets a lot of flak for being such an academic language, in the “Ivory Tower” sense. However, this can also really be seen as an advantage. Look at all the great products that have come out of the AI revolution - the research for a large majority of all these Machine and Deep Learning predictive algorithms has come from the academic community. Why not expect a similar outcome with a programming language?</p>
+
+<p>There’s also an incredible array of high quality libraries in the Haskell community. Checkout <a href="https://goo.gl/M0QwMh" target="_blank">Hackage</a> for more info.</p>
+
+<h3 id="7-stay-ahead-of-your-competition">7. Stay Ahead of Your Competition</h3>
 
 <blockquote>
   <p>The best way to predict the future is to invent it.</p>
@@ -199,12 +205,6 @@
 </blockquote>
 
 <p>Albeit I’m biased, but I see a trend with Haskell and FP. What company doesn’t want higher quality software, with fewer mistakes? We are now starting to see the industry pick up on this trend as well - Facebook recently rewrote a critical piece of the company’s Artificial Intelligence (AI) powered spam detection library in Haskell, and open-sourced a critical piece of that project, <a href="https://goo.gl/1yx3bJ" target="_blank">Haxl</a>.</p>
-
-<h3 id="7-vibrant-community-support">7. Vibrant Community Support</h3>
-
-<p>Haskell gets a lot of flak for being such an academic language, in the “Ivory Tower” sense. However, this can also really be seen as an advantage. Look at all the great products that have come out of the AI revolution - the research for a large majority of all these Machine and Deep Learning predictive algorithms has come from the academic community. Why not expect a similar outcome with a programming language?</p>
-
-<p>There’s also an incredible array of high quality libraries in the Haskell community. Checkout <a href="https://goo.gl/M0QwMh" target="_blank">Hackage</a> for more info.</p>
 
 <h2 id="haskells-pitfalls">Haskell’s Pitfalls</h2>
 

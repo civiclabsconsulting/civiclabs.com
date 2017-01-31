@@ -8,11 +8,9 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
 endif
 set shortmess=aoO
 badd +100 src/_posts/2017-01-19-7-reasons-to-have-your-next-important-software-project-written-in-haskell.md
-badd +21 src/_layouts/post.html
-badd +36 src/css/style.css
 argglobal
 silent! argdel *
-edit src/_layouts/post.html
+edit src/_posts/2017-01-19-7-reasons-to-have-your-next-important-software-project-written-in-haskell.md
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -28,12 +26,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 20 - ((13 * winheight(0) + 21) / 42)
+let s:l = 100 - ((35 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-20
-normal! 080|
+100
+normal! 0
 tabnext 1
 if exists('s:wipebuf') && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
