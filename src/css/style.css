@@ -56,3 +56,20 @@
 .img-circle {
     border-radius: 50%;
 }
+
+.clients-logo-img > img {
+    width: 200px !important;
+}
+
+#clients-logo-section {
+    padding: 75px;
+}
+
+#clients-logo-section .clients-logo-img {
+    padding: 25px;
+    text-align: center;
+}
+
+#portfolio-work {
+    background-color: #f5f5f5;
+}

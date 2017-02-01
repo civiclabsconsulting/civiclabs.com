@@ -3,6 +3,7 @@ layout: post
 title: 7 Reasons to Have Your Next (Important) Software Application Written in Haskell
 date: 2017-01-19
 teaser: Thinking about having a custom software application written for you or your company? Read this first.
+description: Not Just Code. The Right Code. Civic Labs is a software consulting company focused on building custom medical and financial applications. We specialize in provably correct software written in Haskell and Coq.
 author: Brandon Stiles
 comments: true
 categories: haskell coq software
