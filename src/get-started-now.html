@@ -21,72 +21,32 @@ permalink: /get-started-now/
 <section id="contact-form">
     <div class="container">
         <div class="row">
-            <form action="https://formspree.io/hello@civiclabs.com"
-                  id="contactForm"
-                  method="POST">
+            <form action="https://www.getdrip.com/forms/76304296/submissions"
+                  method="post"
+                  data-drip-embedded-form="76304296">
                 <div class="col-md-6 col-sm-12">
                     <div class="block">
-                        <h2 style="margin-top: 0;">Want to setup a 30 minute roadmapping consultation? It's <strong>free</strong> until February 28, 2017 or otherwise noted!</h2>
-                        <p>Hear more about what we do and our development philosophy. Judge for yourself based on what we’ve achieved for other clients, and talk to our highly experienced team.</p>
+                        <h2 style="margin-top: 0;" data-drip-attribute="headline">Free 30 Minute Consultation</h2>
+                        <div data-drip-attribute="description">Interested in hearing&nbsp;more about what we do and our development philosophy? Judge for yourself based on what we&rsquo;ve achieved for other clients, and talk to our highly experienced team.</div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="block">
                         <div class="form-group">
-                            <input type="text"
-                                   class="form-control"
-                                   required
-                                   name="name" placeholder="Your Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="email"
-                                   class="form-control"
-                                   name="email"
-                                   required
-                                   placeholder="Email Address">
-                        </div>
-                        <div class="form-group-2">
-                            <textarea class="form-control"
-                                      required
-                                      name="message"
-                                      rows="3"
-                                      placeholder="Your Message"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <br/>
-                            <input type="text"
-                                   class="form-control"
-                                   required
-                                   name="availablity"
-                                   placeholder="Availability">
+                            <input class="form-control" 
+                                   type="email" placeholder="Email Address" name="fields[email]" value="" />
                         </div>
                         <div class="form-group-2">
                             <br>
                             <button class="btn btn-default form-control"
+                                    name="submit"
                                     value="Send"
-                                    id="contactFormSendButton"
-                                    type="submit">Go</button>
+                                    data-drip-attribute="sign-up-button"
+                                    type="submit">I'm ready</button>
                         </div>
                     </div>
                 </div>
             </form>
-            <script>
-                $("#contactForm").on("submit", function(e) {
-                    e.preventDefault();
-                    var data = $(this).serializeArray();
-                    $.ajax({
-                        url: "//formspree.io/hello@civiclabs.com",
-                        method: "POST",
-                        data: data,
-                        dataType: "json"
-                    });
-                    $("#contactForm").html('<div class="col-md-12 col-sm-12">'
-                            + '<div class="alert alert-success"><strong>Success!</strong> '
-                            + 'We will get back to you shortly.</div>'
-                            + '</div>');
-                    return false;
-                });
-            </script>
         </div>
     </div>
 </section>
