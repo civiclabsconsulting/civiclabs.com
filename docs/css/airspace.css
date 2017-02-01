@@ -703,7 +703,7 @@ wrapper-contact Start
 }
 .social-icons li {
     display: inline-block;
-    margin: 0 6px;
+    margin: 0;
 }
 .social-icons a {
     display: inline-block;
