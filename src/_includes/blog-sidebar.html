@@ -38,7 +38,7 @@
     {% assign t = tag | first %}
     {% assign posts = tag | last %}
     <li>
-        <a href="#{{ t }}">{{t | capitalize | replace:" ","-" }}
+        <a href="#{{ t }}">{{t | capitalize | replace:" ","-" }}</a>
     </li>
     {% endfor %}
 </ul>
