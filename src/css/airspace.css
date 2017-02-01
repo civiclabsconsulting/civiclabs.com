@@ -194,7 +194,6 @@ service Start
 call-to-action Start
 --*/
 #call-to-action {
-    background: url("../img/call-to-action-bg.jpg") no-repeat;
     background-size: cover;
     background-attachment: scroll;
     padding: 70px 0px;
@@ -211,7 +210,7 @@ call-to-action Start
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: #494856;
+    background: #000;
     opacity: 0.8;
 }
 #call-to-action h2 {
