@@ -154,21 +154,21 @@
                 </div>
             </form>
             <script>
-                $("#contactForm").on("submit", function(e) {
-                    e.preventDefault();
-                    var data = $(this).serializeArray();
-                    $.ajax({
-                        url: "//formspree.io/hello@civiclabs.com",
-                        method: "POST",
-                        data: data,
-                        dataType: "json"
-                    });
-                    $("#contactForm").html('<div class="col-md-12 col-sm-12">'
-                            + '<div class="alert alert-success"><strong>Success!</strong> '
-                            + 'We will get back to you shortly.</div>'
-                            + '</div>');
-                    return false;
-                });
+$("#contactForm").on("submit", function(e) {
+    e.preventDefault();
+    var data = $(this).serializeArray();
+    $.ajax({
+        url: "//formspree.io/hello@civiclabs.com",
+        method: "POST",
+        data: data,
+        dataType: "json"
+    });
+    $("#contactForm").html('<div class="col-md-12 col-sm-12">'
+            + '<div class="alert alert-success"><strong>Success!</strong> '
+            + 'We will get back to you shortly.</div>'
+            + '</div>');
+    return false;
+});
             </script>
         </div>
         <div id="contact-box" class="row">
@@ -207,14 +207,18 @@
             <div class="col-md-6 col-sm-12">
                 <div class="block">
                     <h2>&nbsp;</h2>
-                    <div class="google-map" style="width: 100% !important;">
-                        <iframe width="100%"
-                                height="300"
-                                frameborder="0"
-                                style="border:0"
-                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC2ysn5LkLc_Oies-KuXECr_QEoQssFhmA&q=28+2nd+Street,San+Francisco+CA" allowfullscreen>
-                        </iframe>
-                    </div>
+                    <div id="map" style="height: 100%; width: 100%;"></div>
+                    <script>
+                        var map;
+                        function initMap() {
+                            map = new google.maps.Map(document.getElementById('map'), {
+                                center: {lat: -34.397, lng: 150.644},
+                                zoom: 8
+                            });
+                        }
+                    </script>
+                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2ysn5LkLc_Oies-KuXECr_QEoQssFhmA&callback=initMap"
+                            async defer></script>
                 </div>
             </div>
         </div>
