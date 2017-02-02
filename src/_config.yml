@@ -15,8 +15,8 @@ title: "Civic Labs"
 subtitle: "Not Just Code. The Right Code. Medical and Financial Software Consulting with Haskell and Coq."
 url: "https://www.civiclabs.com"
 baseurl: ""
-cover: "/assets/cover.png"
-logo: "/assets/logo.png"
+cover: "/assets/img/feature-bg.jpg"
+logo: "/assets/img/logo-small.png"
 
 markdown: kramdown
 
@@ -25,6 +25,9 @@ ga_tracking_id: "UA-80053910-1"
 descriptions:
   - cat: haskell
     desc: "Purely functional programming language"
+
+  - cat: coq
+    desc: "Interactive theorem prover and programming language"
 
 gems:
   - listen
@@ -45,29 +48,20 @@ gems:
 paginate_path: "/blog/page:num/"
 
 assets:
-  compress:
-    css: true
-    js: true
-
+  prefix: "/assets"
+  sources:
+    - _assets
   autowrite: true
   cache: .asset-cache
   cache_type: filesystem
   skip_baseurl_with_cdn: true
   skip_prefix_with_cdn: true
-  digest: true
-
   assets:
     - "*.png"
     - "*.jpg"
-    - "bundle.css"
-
-  sources:
-    - css
-    - img
-    - js
-    - css
-    - fonts
-
+    - "*.css"
+    - "*.ttf"
+    - "*.woff"
   features:
     integrity: false
     automatic_img_size: true
