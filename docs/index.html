@@ -252,22 +252,7 @@
         </div>
     </div>
 </section>
-<script>
-$("#newsletterForm").on("submit", function(e) {
-    e.preventDefault();
-    var data = $(this).serializeArray();
-    $.ajax({
-        url: "//formspree.io/hello@civiclabs.com",
-        method: "POST",
-        data: data,
-        dataType: "json"
-    });
-    $(this).html('<div class="alert alert-success"><strong>Success!</strong> '
-            + 'We will get back to you shortly.</div>');
-    return false;
-});
-</script>
-<!-- Content Start -->
+
 <section id="testimonial">
     <div class="container">
         <div class="row">
