@@ -1,19 +1,7 @@
-/*
- * This is the main css file that ships with the airspace theme.
- * In airspace, it is called style.css
- * However, style.css now holds additional styles for this jekyll port. (Not written by ThemeFisher)
- * The original style.css is now called airspace.css
- *
- */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import url(https://fonts.googleapis.com/css?family=Volkhov:400italic);
 
-
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-@import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
-@import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
-/* var text-decoration */
-/*--
-Common Css
---*/
 body {
     font-family: 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -98,7 +86,7 @@ Index Start
 Slider Start
 --*/
 #slider {
-    background: url("../img/slider-bg.jpg") no-repeat;
+    background: url(/assets/img/slider-bg.jpg) no-repeat;
     background-position: 10% 0%;
     padding: 200px 0 280px 0;
     position: relative;
@@ -363,7 +351,7 @@ Work Start
 Slider-work Start
 --*/
 #global-header {
-    background: url("../img/slider-bg.jpg") no-repeat;
+    background: url(/assets/img/slider-bg.jpg) no-repeat;
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 107px;
@@ -611,7 +599,7 @@ Contact Start
 slider-contact Start
 --*/
 #slider-contact {
-    background: url("../img/slider-bg.jpg") no-repeat;
+    background: url(/assets/img/slider-bg.jpg) no-repeat;
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 107px;

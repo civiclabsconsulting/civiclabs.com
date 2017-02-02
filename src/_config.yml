@@ -38,8 +38,8 @@ gems:
   - jekyll-watch
   - kramdown
   - rouge
+  - nokogiri
   - jekyll-sitemap
-  - liquid_reading_time
   - jekyll-seo-tag
   - jekyll-seo
   - jekyll-assets
@@ -57,6 +57,7 @@ assets:
   skip_baseurl_with_cdn: true
   skip_prefix_with_cdn: true
   assets:
+    - "*.css"
     - "*.png"
     - "*.jpg"
     - "*.css"
