@@ -12,7 +12,7 @@ keep_files:
   - ".gitignore"
 
 title: "Civic Labs"
-subtitle: "Not Just Code. The Right Code."
+subtitle: "Not Just Code. The Right Code. Medical and Financial Software Consulting with Haskell and Coq."
 url: "https://www.civiclabs.com"
 baseurl: ""
 cover: "/assets/cover.png"
@@ -22,13 +22,9 @@ markdown: kramdown
 
 ga_tracking_id: "UA-80053910-1"
 
-# Category descriptions (for archive pages)
 descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
-
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+  - cat: haskell
+    desc: "Purely functional programming language"
 
 gems:
   - listen
@@ -61,6 +57,7 @@ assets:
 
   assets:
     - "*.png"
+    - "*.jpg"
     - "bundle.css"
 
   sources:
