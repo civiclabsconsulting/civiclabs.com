@@ -30,4 +30,10 @@ curl -X PATCH "https://api.cloudflare.com/client/v4/zones/${zone}/settings/devel
      -H "Content-Type: application/json" \
      --data '{"value":"on"}'
 
+curl -X PATCH "https://api.cloudflare.com/client/v4/zones/${zone}/settings/development_mode" \
+     -H "X-Auth-Email: ${email}" \
+     -H "X-Auth-Key: ${tkn}" \
+     -H "Content-Type: application/json" \
+     --data '{"value":"off"}'
+
 unset zone email tkn domain
