@@ -226,20 +226,24 @@
         </div>
     </div>
 </section>
-<!-- Call to action Start -->
+
 <section id="call-to-action" class="newsletter">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h2>Stay Up To Date with Haskell and Coq News By Signing Up For Our Newsletter</h2>
-                    <p>Read more about what we do and our philosophy of design. Judge for yourself the work and results we’ve achieved for other clients, and meet our highly experienced team.</p>
+                    <h2 data-drip-attribute="headline">Newsletter Signup</h2>
+                    <p data-drip-attribute="description">Care to know why Haskell and Coq software products are your best bet for delivering the absolute best financial and medical applications?</p>
                     <br/>
-                    <form id="newsletterForm" class="form-inline" role="form">
+                    <form action="https://www.getdrip.com/forms/38908131/submissions" 
+                          method="post" 
+                          data-drip-embedded-form="38908131">
                         <div class="input-group">
-                            <input type="text" name="email" class="form-control" required placeholder="Email">
+                            <input type="email" class="form-control" required placeholder="Email"
+                                   name="fields[email]" value="" />
                             <span class="input-group-btn">
-                                <button class="btn btn-default btn-action" type="submit">Signup</button>
+                                <input type="submit" class="btn btn-action" name="submit" value="Sign Up" 
+                                       data-drip-attribute="sign-up-button" />
                             </span>
                         </div>
                     </form>
