@@ -7,27 +7,23 @@ $(document).ready(function(){
         autoPlay: 3000,
     });
 
-    $("#clients-logo").owlCarousel({
-        autoPlay: 3000,
-        items : 5,
+    $("#client-logos").owlCarousel({
+        navigation: true,
+        items: 10,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
         itemsDesktop : [1199,5],
-        itemsDesktopSmall : [979,5],
+        itemsDesktopSmall : [979,5]
     });
 
     $("#works-logo").owlCarousel({
         autoPlay: 3000,
-        items : 5,
-        itemsDesktop : [1199,5],
-        itemsDesktopSmall : [979,5],
+        items: 5,
+        itemsDesktop: [1199,5],
+        itemsDesktopSmall: [979,5]
     });
-
-    var map;
-    function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: -34.397, lng: 150.644},
-            zoom: 8
-        });
-    }
 
     $('.counter').counterUp({
         delay: 10,
