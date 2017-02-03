@@ -14,8 +14,8 @@ $(document).ready(function(){
         autoplay: true,
         autoplayTimeout: 3000,
         autoplayHoverPause: true,
-        itemsDesktop : [1199,5],
-        itemsDesktopSmall : [979,5]
+        //itemsDesktop : [1199, 5],
+        //itemsDesktopSmall : [979, 5]
     });
 
     $("#works-logo").owlCarousel({
