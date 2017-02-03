@@ -132,21 +132,22 @@
 <section id="contact-form">
     <div class="container">
         <div class="row">
-            <form action="https://formspree.io/hello@civiclabs.com"
-                  id="contactForm"
-                  method="POST">
+            <form id="contactForm"
+                  action="https://www.getdrip.com/forms/70437061/submissions"
+                  data-drip-embedded-form="70437061">
                 <div class="col-md-6 col-sm-12">
                     <div class="block">
                         <div class="form-group">
                             <input type="text"
                                    class="form-control"
                                    required
-                                   name="name" placeholder="Your Name">
+                                   name="fields[name]"
+                                   placeholder="Your Name">
                         </div>
                         <div class="form-group">
                             <input type="email"
                                    class="form-control"
-                                   name="email"
+                                   name="fields[email]"
                                    required
                                    placeholder="Email Address">
                         </div>
@@ -154,21 +155,25 @@
                             <input type="text"
                                    class="form-control"
                                    required
-                                   name="subject" placeholder="Subject">
+                                   name="fields[subject]"
+                                   placeholder="Subject">
                         </div>
                         <div class="form-group-2">
                             <textarea class="form-control"
                                       required
-                                      name="message"
                                       rows="3"
+                                      name="fields[message]"
                                       placeholder="Your Message"></textarea>
                         </div>
                         <div class="form-group-2">
                             <br>
-                            <button class="btn btn-default form-control"
+                            <button type="submit"
+                                    class="btn btn-default form-control"
+                                    name="submit"
                                     value="Send"
-                                    id="contactFormSendButton"
-                                    type="submit">Send Message</button>
+                                    data-drip-attribute="sign-up-button">
+                                Send
+                            </button>
                         </div>
                     </div>
                     <br/>
@@ -176,28 +181,12 @@
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="block">
-                        <h1 style="margin-top: 0;">Contact Us</h1>
-                        <p>What's on your mind? Interested in product development? Or jumpstarting your product's infrastructure by leveraging our knowledge and experience? Outsource your development operations to us. Or just say hi!</p>
+                        <h1 data-drip-attribute="headline"
+                            style="margin-top: 0;">Contact Us</h1>
+                        <p data-drip-attribute="description">What's on your mind? Interested in product development? Or jumpstarting your product's infrastructure by leveraging our knowledge and experience? Outsource your development operations to us. Or just say hi!</p>
                     </div>
                 </div>
             </form>
-            <script>
-$("#contactForm").on("submit", function(e) {
-    e.preventDefault();
-    var data = $(this).serializeArray();
-    $.ajax({
-        url: "//formspree.io/hello@civiclabs.com",
-        method: "POST",
-        data: data,
-        dataType: "json"
-    });
-    $("#contactForm").html('<div class="col-md-12 col-sm-12">'
-            + '<div class="alert alert-success"><strong>Success!</strong> '
-            + 'We will get back to you shortly.</div>'
-            + '</div>');
-    return false;
-});
-            </script>
         </div>
         <div id="contact-box" class="row">
             <div class="col-md-6 col-sm-12">
@@ -254,7 +243,7 @@ function initMap() {
 
     var marker, i;
 
-    for (i = 0; i < locations.length; i++) {  
+    for (i = 0; i < locations.length; i++) {
         marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
             map: map
@@ -306,7 +295,11 @@ function initMap() {
             <li><a href="/">Home</a></li>
             <li><a href="/blog/">Blog</a></li>
             <li><a href="/portfolio/">Portfolio</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li>
+                <a onClick="_dcq.push(['showForm', { id: '38908131' }]);"
+                   href="#newsletter">Newsletter</a>
+            </li>
             <li><a href="/get-started-now/">Get Started Now</a></li>
           </ul>
         </div>
