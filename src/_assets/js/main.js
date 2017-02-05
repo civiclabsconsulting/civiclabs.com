@@ -13,7 +13,20 @@ $(document).ready(function(){
         loop: true,
         autoplay: true,
         autoplayTimeout: 3000,
-        autoplayHoverPause: true
+        autoplayHoverPause: true,
+        margin: 20,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 6
+            }
+        }
     });
 
     $("#works-logo").owlCarousel({
