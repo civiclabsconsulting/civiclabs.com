@@ -74,3 +74,7 @@
 .navbar-collapse {
     border-top: 0 solid black;
 }
+
+#intro .block p {
+    padding-top: 0;
+}
