@@ -78,3 +78,7 @@
 #intro .block p {
     padding-top: 0;
 }
+
+.owl-nav.disabled {
+    display: none !important;
+}

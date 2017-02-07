@@ -2,9 +2,14 @@ $(document).ready(function(){
     $("#portfolio-contant-active").mixItUp();
 
     $("#testimonial-slider").owlCarousel({
-        paginationSpeed : 500,
-        singleItem:true,
-        autoPlay: 3000,
+        paginationSpeed: 500,
+        singleItem: true,
+        dots: true,
+        loop: false,
+        navRewind: false,
+        nav: false,
+        items: 1,
+        autoPlay: 3000
     });
 
     $("#client-logos").owlCarousel({
