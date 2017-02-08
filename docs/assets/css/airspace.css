@@ -86,7 +86,7 @@ Index Start
 Slider Start
 --*/
 #slider {
-    background: url(/assets/img/main-bg.png) no-repeat;
+    background: url(/assets/img/main-bg.png?cache) no-repeat;
     background-position: 10% 0%;
     padding: 200px 0 280px 0;
     position: relative;
