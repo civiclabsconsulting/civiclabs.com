@@ -4,12 +4,16 @@
 
 *Requirements*
 
-* Ruby/Bundler/Jekyll
+* Ruby
 
 *Installation*
 
-`bundle`
+`./bin/setup`
+
+*Development*
+
+`./bin/serve`
 
 *Deploy*
 
-`./deploy.sh "<commit message>"`
+`./bin/deploy "<commit message>"`
