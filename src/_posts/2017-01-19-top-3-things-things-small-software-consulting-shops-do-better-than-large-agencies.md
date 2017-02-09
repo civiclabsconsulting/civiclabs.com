@@ -31,6 +31,8 @@ Working in the large increases risk. Straight from Allan Kelly's blog, he descri
 >
 > Waiting longer - and probably writing more code - before you ask for feedback or user validation causes more problems than asking for it sooner when the product is smaller
 
+This may or may not be obvious, but in my own experience, I can anecdotally say that working in small groups *always* promotes clearer, meaningful communication and more productive relationships. This in turn creates better products, which increases customer satisfaction.
+
 ## 2. Offer Highly Niche Services
 
 With the proliferation of more smaller and smaller shops cropping up, it only makes sense that the small shops adjust their focus according to compete against the "Big Guys" buy specializing on something in particular. In the case of Civic Labs, this focus is on Haskell and Coq programming.
@@ -38,7 +40,3 @@ With the proliferation of more smaller and smaller shops cropping up, it only ma
 ## 3. Turnaround Products Faster
 
 Ever heard of the bikeshed problem, or [Law of Triviality](https://goo.gl/iTFs7c)? This is the idea that the more unqualified people are involved in a decision, the less likely the decision is to be good for the entire group. This also applies to discussion: the more people involved in a discussion who aren't experts on the topic, the more time will be spent on details that do not matte.
-
-## Bonus: Increase Customer Focus (and Satisfaction)
-
-This may or may not be obvious, but in my own experience, I can anecdotally say that working in small groups *always* promotes clearer, meaningful communication and more productive relationships. This in turn creates better products, which increases customer satisfaction.
