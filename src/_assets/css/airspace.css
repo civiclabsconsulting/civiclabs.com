@@ -86,7 +86,7 @@ Index Start
 Slider Start
 --*/
 #slider {
-    background: url(/assets/img/main-bg.png?cache) no-repeat;
+    background: url(/assets/img/main-bg.png) no-repeat;
     background-position: 10% 0%;
     padding: 200px 0 280px 0;
     position: relative;
@@ -107,8 +107,8 @@ Slider Start
     right: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to left, #e6e6e6, white);
-    opacity: 0.3;
+    background: linear-gradient(to left, #F1F0E9, white);
+    opacity: 0.8;
 }
 #slider .block a {
     color: #333333 !important;
@@ -371,11 +371,11 @@ Slider-work Start
     right: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+    background: linear-gradient(to left, #F1F0E9, white);
     opacity: 0.8;
 }
 #global-header .block {
-    color: #E3E3E4;
+    color: #333333;
     margin: 0 auto;
     text-align: center;
 }
@@ -618,7 +618,7 @@ slider-contact Start
     right: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+    background: linear-gradient(to left, #F1F0E9, white);
     opacity: 0.8;
 }
 #slider-contact .block {
