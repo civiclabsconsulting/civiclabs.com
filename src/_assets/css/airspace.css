@@ -1,18 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
-@import url(https://fonts.googleapis.com/css?family=Volkhov:400italic);
 
 body {
     font-family: 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Roboto', sans-serif;
 }
 h2 {
     font-size: 30px;
@@ -46,7 +36,6 @@ a:active {
     font-weight: 600;
 }
 .section-title p {
-    font-family: 'Volkhov', serif;
     font-style: italic;
     color: #666;
 }
@@ -111,30 +100,49 @@ Slider Start
     opacity: 0.8;
 }
 #slider .block a {
-    color: #333333 !important;
-    font-weight: 400;
+    font-weight: normal;
 }
 #slider .block {
     color: #333333;
 }
 #slider .block h1 {
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 45px;
     line-height: 60px;
     letter-spacing: 10px;
     padding-bottom: 45px;
+    color: #BC6C69;
 }
 #slider .block p {
     font-size: 23px;
     line-height: 40px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     letter-spacing: 3px;
 }
-/*--
-wrapper Start
---*/
+
+#certified-code {
+    padding: 100px 0;
+}
+#certified-code .block h2 {
+    padding-top: 35px;
+    line-height: 27px;
+    margin: 0;
+}
+#certified-code .block p {
+    color: #7B7B7B;
+    padding-top: 20px;
+}
+#certified-code .block img {
+    padding-left: 40px;
+    width: 100%;
+}
+#certified-code .section-title {
+    margin-bottom: 0px;
+}
+#certified-code .section-title p {
+    padding-top: 20px;
+}
+
 #intro {
     padding: 100px 0;
 }
@@ -380,6 +388,7 @@ Slider-work Start
     text-align: center;
 }
 #global-header .block h1 {
+    color: #BC6C69;
     font-weight: 100;
     font-size: 45px;
     letter-spacing: 6px;
@@ -627,7 +636,6 @@ slider-contact Start
     padding-left: 90px;
 }
 #slider-contact .block h1 {
-    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 45px;
     line-height: 60px;
@@ -637,7 +645,6 @@ slider-contact Start
 #slider-contact .block p {
     font-size: 23px;
     line-height: 40px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     letter-spacing: 1px;
     word-spacing: 3px;
@@ -677,7 +684,6 @@ contact-form Start
     background: #47424C;
     border: none;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
 /*--
@@ -722,7 +728,6 @@ wrapper-contact Start
     width: 100%;
 }
 #contact-box .block h2 {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #000;
     font-size: 28px;
