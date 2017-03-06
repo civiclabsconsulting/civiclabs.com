@@ -12,13 +12,15 @@ keep_files:
   - ".gitignore"
 
 title: "Civic Labs"
-subtitle: "Not Just Code. The Right Code. Medical and Financial Software Consulting with Haskell and Coq."
+subtitle: "Don't just try to predict the future. Create it."
+description: "Don't just try to predict the future. Create it."
 url: "https://www.civiclabs.com"
 baseurl: ""
 cover: "/assets/img/feature-bg.jpg"
 logo: "/assets/img/logo-small.png"
 
 markdown: kramdown
+
 
 ga_tracking_id: "UA-80053910-1"
 
