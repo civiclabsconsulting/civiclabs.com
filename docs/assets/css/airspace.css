@@ -119,30 +119,38 @@ Slider Start
     letter-spacing: 3px;
 }
 
-#certified-code {
+/*--
+How Start
+--*/
+#how {
     padding: 100px 0;
     background-color: #f5f5f5;
 }
-#certified-code .block h2 {
+
+h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 600;
+}
+#hw .block h2 {
     padding-top: 35px;
     line-height: 27px;
     margin: 0;
 }
-#certified-code .block p {
+#how .block p {
     color: #7B7B7B;
     padding-top: 20px;
 }
-#certified-code .block img {
+#how .block img {
     padding-left: 40px;
     width: 100%;
 }
-#certified-code .section-title {
+#how .section-title {
     margin-bottom: 0px;
 }
-#certified-code .section-title p {
+#how .section-title p {
     padding-top: 20px;
 }
-
 #intro {
     padding: 100px 0;
     background-color: #f5f5f5;
