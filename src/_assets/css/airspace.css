@@ -62,7 +62,6 @@ header .navbar-default .navbar-nav {
 }
 header .navbar-default .navbar-nav li a {
     color: #333333;
-    padding: 10px 26px;
     font-size: 15px;
 }
 font header .navbar-default .navbar-nav li a:hover {
@@ -75,7 +74,7 @@ Index Start
 Slider Start
 --*/
 #slider {
-    background: url(/assets/img/main-bg.png) no-repeat;
+    /*background: url(/assets/img/main-bg.png) no-repeat;*/
     background-position: 10% 0%;
     padding: 200px 0 280px 0;
     position: relative;
@@ -375,7 +374,7 @@ Work Start
 Slider-work Start
 --*/
 #global-header {
-    background: url(/assets/img/main-bg.png) no-repeat;
+    /*background: url(/assets/img/main-bg.png) no-repeat;*/
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 107px;

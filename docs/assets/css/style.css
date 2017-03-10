@@ -5,6 +5,12 @@
  */
 
 
+.team-image {
+    border-radius: 50%;
+    height: 340px !important;
+    width: 340px !important;
+}
+
 .italic {
     font-style: italic;
 }
