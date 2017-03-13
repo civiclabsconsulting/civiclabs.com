@@ -10,7 +10,7 @@ permalink: /team/
             <div class="col-md-12">
                 <div class="block">
                     <h1>Team</h1>
-                    <p>No man is an island.</p>
+                    <p>Employees and advisors.</p>
                 </div>
             </div>
         </div>
@@ -26,7 +26,8 @@ permalink: /team/
                         <h2>Brandon Stiles</h2>
                         <h3>Founder and CEO</h3>
                     </div>
-                    <p>Biography coming soon!</p>
+                    {% capture stiles %}{% include stiles.md %}{% endcapture %}
+                    {{ stiles | markdownify }}
                 </div>
             </div>
             <div class="col-md-5 col-sm-12" style="text-align: center;">
