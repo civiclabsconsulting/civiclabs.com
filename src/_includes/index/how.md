@@ -1,4 +1,4 @@
-### With Technology
+### With Math
 
 At Civic Labs we are heavily invested in a few key technologies that allow us to do what we do: build high quality software. Specifically, certified programming, a kind of computer software application development that facilitates the creation of mathematically provably correct software via functional programming.
 
