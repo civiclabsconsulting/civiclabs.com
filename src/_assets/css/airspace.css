@@ -242,6 +242,47 @@ call-to-action Start
     margin-top: 30px;
 }
 /*--
+Newsletter
+--*/
+#newsletter {
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 70px 0px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+#newsletter:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.8;
+}
+#newsletter h2 {
+    padding-bottom: 20px;
+    line-height: 33px;
+    margin: 0;
+    font-size: 30px;
+}
+#newsletter p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+#newsletter .btn-call-to-action {
+    padding: 15px 35px;
+    border: none;
+    background-color: #fff;
+    font-size: 15px;
+    color: #333333;
+    margin-top: 30px;
+}
+/*--
 Feature Start
 --*/
 #feature {
