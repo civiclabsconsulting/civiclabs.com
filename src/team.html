@@ -20,7 +20,7 @@ permalink: /team/
 <section id="intro">
     <div class="container">
         <div class="row">
-            <div class="col-md-7 col-sm-12">
+            <div class="col-lg-6 col-lg-6 col-lg-6">
                 <div class="block">
                     <div class="section-title">
                         <h2>Brandon Stiles</h2>
@@ -30,12 +30,16 @@ permalink: /team/
                     {{ stiles | markdownify }}
                 </div>
             </div>
-            <div class="col-md-5 col-sm-12" style="text-align: center;">
-                <br/>
-                <br/>
-                <br/>
-                <img class="team-image" src="/assets/img/stilesb-profile.jpg" alt="Brandon Stiles">
+	       <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="block">
+                    <div class="section-title">
+                        <h2>Roy Blankman</h2>
+                        <h3>Advisor</h3>
+                    </div>
+                    {% capture blankman %}{% include blankman.md %}{% endcapture %}
+                    {{ blankman | markdownify }}
+                </div>
             </div>
-        </div>
+	</div>
     </div>
 </section>

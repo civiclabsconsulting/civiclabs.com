@@ -1,0 +1,1 @@
+Roy is the Founder of Boustrophedon Syndicate, a consulting company offering technoloigcal thought leadership. Roy's clientelle includes a roster of high profile technology companies including Tesla Motors Inc. and General Dynamics. He is currently based in New York City, NY.

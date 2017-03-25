@@ -1,1 +1,1 @@
-Coming soon!
+Brandon is Founder and CEO of Civic Labs. He began is career working as a software developer for MediaSilo, the Digital Asset Management Cloud Platform SaaS provider in Boston, MA. After moving to San Francisco, CA, he started Civic Labs, a software consulting company focused on building web applications using cutting-edge technologies based on Functional Programming and Type-Theory, including Haskell and Coq. Civic Labs has since expanded into New York City, NY. 
